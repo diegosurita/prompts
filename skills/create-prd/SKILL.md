@@ -42,7 +42,8 @@ Synthesize the user's input. Identify dependencies and hidden complexities.
 
 ### Phase 3: Technical Drafting
 
-Generate the document using the **Strict PRD Schema** below.
+- Generate the document using the **Strict PRD Schema** below.
+- Save the PRD generated in `spec/<feature>/prd-<feature>.md` file.
 
 ---
 
