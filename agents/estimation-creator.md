@@ -1,6 +1,6 @@
 ---
-name: create-estimation
-description: Generate a detailed time and effort estimation for a technical specification using a structured approach that accounts for AI-assisted coding.
+name: estimation-creator
+description: Agent that generates a detailed time and effort estimation for a technical specification using a structured approach that accounts for AI-assisted coding.
 ---
 
 # Role and Objective
