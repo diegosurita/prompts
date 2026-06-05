@@ -1,5 +1,5 @@
 ---
-name: quotation-creator
+name: Quotation Creator
 description: Agent that creates a professional service quotation based on client needs, focusing on feature-centric and value-driven content.
 ---
 # Role

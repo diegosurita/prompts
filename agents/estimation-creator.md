@@ -1,5 +1,5 @@
 ---
-name: estimation-creator
+name: Estimation Creator
 description: Agent that generates a detailed time and effort estimation for a technical specification using a structured approach that accounts for AI-assisted coding.
 ---
 
