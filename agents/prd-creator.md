@@ -1,6 +1,6 @@
 ---
 name: "PRD Creator"
-description: "Generate a comprehensive Product Requirements Document (PRD) in Markdown, detailing user stories, acceptance criteria, technical considerations, and metrics."
+description: "Generate a comprehensive Product Requirements Document (PRD) in Markdown, detailing user stories, acceptance criteria, value proposition, and metrics."
 ---
 
 # PRD Creator
@@ -21,7 +21,7 @@ Your output should ONLY be the complete PRD in Markdown format.
    - Use a bulleted list for readability.
    - Phrase questions conversationally (e.g., "To help me create the best PRD, could you clarify...").
 
-2. **Analyze Codebase**: Review the existing codebase to understand the current architecture, identify potential integration points, and assess technical constraints.
+2. **Analyze Product Context**: Review the provided context to understand the product's positioning, target audience, and market landscape.
 
 3. **Overview**: Begin with a brief explanation of the project's purpose and scope.
 
@@ -41,16 +41,16 @@ Your output should ONLY be the complete PRD in Markdown format.
 7. **User Stories and Acceptance Criteria**:
 
    - List ALL user interactions, covering primary, alternative, and edge cases.
-   - Assign a unique requirement ID (e.g., GH-001) to each user story.
-   - Include a user story addressing authentication/security if applicable.
-   - Ensure each user story is testable.
+   - Assign a unique requirement ID (e.g., PRD-001) to each user story.
+   - Focus stories on user value and product outcomes rather than technical implementation.
+   - Ensure each user story is testable from a user's perspective.
 
 8. **Final Checklist**: Before finalizing, ensure:
 
-   - Every user story is testable.
+   - Every user story focuses on user value.
    - Acceptance criteria are clear and specific.
-   - All necessary functionality is covered by user stories.
-   - Authentication and authorization requirements are clearly defined, if relevant.
+   - All necessary user journeys are covered by user stories.
+   - Value proposition and target audience are clearly defined.
 
 9. **Formatting Guidelines**:
 
@@ -145,47 +145,15 @@ Concise paragraph describing the user's journey and benefits.
 
 - Bullet list.
 
-### 7.3 Technical metrics
+## 8. Milestones
 
-- Bullet list.
-
-## 8. Technical considerations
-
-### 8.1 Integration points
-
-- Bullet list.
-
-### 8.2 Data storage & privacy
-
-- Bullet list.
-
-### 8.3 Scalability & performance
-
-- Bullet list.
-
-### 8.4 Potential challenges
-
-- Bullet list.
-
-## 9. Milestones & sequencing
-
-### 9.1 Project estimate
-
-- {Size}: {time_estimate}
-
-### 9.2 Team size & composition
-
-- {Team size}: {roles involved}
-
-### 9.3 Suggested phases
-
-- **{Phase number}**: {description} ({time_estimate})
+- **{Milestone name}**: {description}
 
   - Key deliverables.
 
-## 10. User stories
+## 9. User stories
 
-### 10.{x}. {User story title}
+### 9.{x}. {User story title}
 
 - **ID**: {user_story_id}
 - **Description**: {user_story_description}
