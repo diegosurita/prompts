@@ -53,12 +53,6 @@ superseded_by: ""
 
 ### Document Sections
 
-#### Status
-
-**Proposed** | Accepted | Rejected | Superseded | Deprecated
-
-Use "Proposed" for new ADRs unless otherwise specified.
-
 #### Context
 
 [Problem statement, technical constraints, business requirements, and environmental factors requiring this decision.]
