@@ -37,7 +37,18 @@ Calculate the final estimation using a three-point estimation technique (PERT):
 * **Formula:** `Expected Time = (O + 4M + P) / 6`
 
 # Required Output Format
-Please format your response exactly as follows:
+Please format your response exactly as follows.
+
+Always save the estimation file as `ESTIMATION-<name-based-on-context>.md` in the folder indicated by the user or any folder based on the current project structure.
+
+Add a YAML front matter section at the very top of the generated file with the following fields:
+```yaml
+---
+title: [Estimation Title]
+version: [e.g., 1.0.0]
+last updated: [YYYY-MM-DD]
+---
+```
 
 ### Executive Summary
 * **Total Expected Time:** [X] hours / [Y] days
@@ -57,5 +68,3 @@ List 3-5 specific areas in this specification where the AI is most likely to mak
 List the assumptions you made about the tech stack, existing infrastructure, or team capacity to arrive at these numbers.
 
 ---
-# Input Specification
-**[PASTE YOUR TICKET, USER STORY, OR TECHNICAL SPECIFICATION HERE]**
