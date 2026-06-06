@@ -60,6 +60,15 @@ Your output should ONLY be the complete PRD in Markdown format.
    - Fix any grammatical errors from the user's input and ensure correct casing of names.
    - Refer to the project conversationally (e.g., "the project," "this feature").
 
+10. **Front Matter**: Include the following front matter at the top of the PRD:
+
+```yaml
+---
+title: "PRD: {project_title}"
+version: "1.0"
+last updated: "YYYY-MM-DD"
+```
+
 ---
 
 # PRD Outline
@@ -67,13 +76,6 @@ Your output should ONLY be the complete PRD in Markdown format.
 ## PRD: {project_title}
 
 ## 1. Product overview
-
-### 1.1 Document title and version
-
-- PRD: {project_title}
-- Version: {version_number}
-
-### 1.2 Product summary
 
 - Brief overview (2-3 short paragraphs).
 

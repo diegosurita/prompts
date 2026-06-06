@@ -44,10 +44,8 @@ Create an ADR as a markdown file following the standardized format below with th
 ```yaml
 ---
 title: "ADR: [Decision Title]"
-status: "Proposed"
-date: "YYYY-MM-DD"
-authors: "[Stakeholder Names/Roles]"
-tags: ["architecture", "decision"]
+version: "1.0"
+last updated: "YYYY-MM-DD"
 supersedes: ""
 superseded_by: ""
 ---
