@@ -23,13 +23,7 @@ Before creating an ADR, collect the following inputs from the user or conversati
 
 **Input Validation:** If any required information is missing, ask the user to provide it before proceeding.
 
-### 2. Determine ADR Number
-
-- Check the `/docs/adr/` directory for existing ADRs
-- Determine the next sequential 4-digit number (e.g., 0001, 0002, etc.)
-- If the directory doesn't exist, start with 0001
-
-### 3. Generate ADR Document in Markdown
+### 2. Generate ADR Document in Markdown
 
 Create an ADR as a markdown file following the standardized format below with these requirements:
 
@@ -39,7 +33,7 @@ Create an ADR as a markdown file following the standardized format below with th
 - Document all alternatives with clear rejection rationale
 - Use coded bullet points (3-letter codes + 3-digit numbers) for multi-item sections
 - Structure content for both machine parsing and human reference
-- Save the file to `/docs/adr/` with proper naming convention
+- Save the file to the location indicated by the user (or a logical place like the project root) with proper naming convention
 
 ---
 
@@ -49,7 +43,7 @@ Create an ADR as a markdown file following the standardized format below with th
 
 ```yaml
 ---
-title: "ADR-NNNN: [Decision Title]"
+title: "ADR: [Decision Title]"
 status: "Proposed"
 date: "YYYY-MM-DD"
 authors: "[Stakeholder Names/Roles]"
@@ -153,21 +147,21 @@ For each alternative:
 
 ### Naming Convention
 
-`adr-NNNN-[title-slug].md`
+The ADR filename must be `ADR-<name-based-on-the-adr-context>.md`.
 
 **Examples:**
 
-- `adr-0001-database-selection.md`
-- `adr-0015-microservices-architecture.md`
-- `adr-0042-authentication-strategy.md`
+- `ADR-database-selection.md`
+- `ADR-microservices-architecture.md`
+- `ADR-authentication-strategy.md`
 
 ### Location
 
-All ADRs must be saved in: `/docs/adr/`
+The location of the file is the one the user indicates. If no folder indication was given, suggest the root of the project or any other place that makes sense based on the project's structure.
 
-### Title Slug Guidelines
+### Name Guidelines
 
-- Convert title to lowercase
+- Base the name on the context of the ADR
 - Replace spaces with hyphens
 - Remove special characters
 - Keep it concise (3-5 words maximum)
@@ -178,7 +172,6 @@ All ADRs must be saved in: `/docs/adr/`
 
 Before finalizing the ADR, verify:
 
-- [ ] ADR number is sequential and correct
 - [ ] File name follows naming convention
 - [ ] Front matter is complete with all required fields
 - [ ] Status is set appropriately (default: "Proposed")
@@ -215,7 +208,7 @@ Before finalizing the ADR, verify:
 
 Your work is complete when:
 
-1. ADR file is created in `/docs/adr/` with correct naming
+1. ADR file is created in the appropriate location with correct naming
 2. All required sections are filled with meaningful content
 3. Consequences realistically reflect the decision's impact
 4. Alternatives are thoroughly documented with clear rejection reasons
