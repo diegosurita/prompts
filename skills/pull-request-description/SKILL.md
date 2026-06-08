@@ -14,8 +14,7 @@ Engineers are busy; they want to understand the impact of your code at a glance.
 
 ### PR Description Template:
 
-## 🎯 Why (The Problem)
-## ✨ What (The Solution)
-## 🛠️ How (Implementation Details)
+## 🎯 The Problem
+## ✨ Solution
 - **[Module/Component Name]:** Brief explanation of the technical change and its impact.
 - **[Database/API/Config]:** (If applicable) Highlight any schema updates, new endpoints, or configuration shifts.
