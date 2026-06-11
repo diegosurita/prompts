@@ -25,7 +25,7 @@ The specification file must define the requirements, constraints, and interfaces
 
 ## File Location & Naming
 
-- Save specifications in the [/docs/](/docs/) directory.
+- Save specifications in the [.specs](/.specs/) directory.
 - Name files according to the convention `[a-z0-9-]+.md`, where the name should be descriptive of the specification's content and starting with the highlevel purpose, which is one of [schema, tool, data, infrastructure, process, architecture, or design].
 - When updating, keep the existing file name and location.
 - The specification file must be formatted in well formed Markdown.
